@@ -1,3 +1,11 @@
+mario_quiz_app/
+│
+├── app.py                   ← Código principal de Streamlit
+├── requirements.txt         ← Dependencias
+├── assets/
+│   ├── happy.json           ← Lottie de caritas felices
+│   └── sad.json             ← Lottie de caritas tristes
+
 import streamlit as st
 from streamlit_lottie import st_lottie
 import json
